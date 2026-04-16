@@ -17,7 +17,7 @@ const Second = () => {
                 </div>
                 
                 {/* Video Player */}
-                <div className='relative w-full max-w-[390px] aspect-[9/16] bg-black rounded-[3rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] border-[8px] border-black/10'>
+                <div className='relative w-full max-w-[390px] aspect-9/16 bg-black rounded-[3rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] border-8px border-black/10'>
                     <video 
                         src="/homepage.mp4" 
                         autoPlay 
