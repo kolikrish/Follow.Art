@@ -8,6 +8,7 @@ import Navbar from './Navbar'
 import Second from './Second'
 import Third from './Third'
 import Fourth from './Fourth'
+import Footer from './Footer'
 
 const App = () => {
 
@@ -44,6 +45,9 @@ const App = () => {
 
       {/* Fourth Section */}
       <Fourth />
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }
