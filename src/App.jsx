@@ -11,6 +11,7 @@ import Fourth from './components/Fourth'
 import Footer from './components/Footer'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const App = () => {
 
@@ -61,6 +62,9 @@ const App = () => {
 
       {/* Footer */}
       <Footer />
+      
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   )
 }
