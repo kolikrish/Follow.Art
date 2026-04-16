@@ -2,18 +2,16 @@ import { Canvas } from '@react-three/fiber'
 import React from 'react'
 import "./style.css"
 import { OrbitControls } from '@react-three/drei'
-import * as THREE from 'three'
+import Scence from './Scence'
 
 const App = () => {
+
   return (
     <>
-      <Canvas>
+      <Canvas camera={{fov: 60}}>
         <OrbitControls />
         <ambientLight />
-        <mesh>
-          <cylinderGeometry args={[1, 1, 1, 30, 30, true]}/>
-          <meshStandardMaterial side={THREE.DoubleSide}/>
-        </mesh>
+        <Scence />
       </Canvas>
     </>
   )
