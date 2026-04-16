@@ -8,7 +8,7 @@ const Second = () => {
             {/* Left Side: Video + Helix Decoration */}
             <div className='relative flex justify-center items-center'>
                 {/* Official Helix Decoration SVG */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-auto opacity-100 -z-10 pointer-events-none drop-shadow-2xl">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-auto opacity-100 -z-10 pointer-events-none drop-shadow-2xl">
                     <img 
                         src="/helix-decoration.svg" 
                         alt="Decoration" 

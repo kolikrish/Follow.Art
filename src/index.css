@@ -5,6 +5,11 @@
     src: url('./Designer.otf');
 }
 
+@font-face {
+    font-family: 'gilroy';
+    src: url(./Gilroy-Light.ttf);
+}
+
 ::-webkit-scrollbar {
     display: none;
 }

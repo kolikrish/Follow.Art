@@ -6,6 +6,7 @@ import { Bloom, BrightnessContrast, EffectComposer, ToneMapping } from '@react-t
 import TextReveal from './TextReveal'
 import Navbar from './Navbar'
 import Second from './Second'
+import Third from './Third'
 
 const App = () => {
 
@@ -36,6 +37,9 @@ const App = () => {
 
       {/* Second Section */}
       <Second />
+
+      {/* Third Section */}
+      <Third />
     </div>
   )
 }
