@@ -46,8 +46,8 @@ const Second = () => {
                 </div>
 
                 <div className='mt-20 md:mt-0 max-w-[550px] border-t border-white/30 pt-12'>
-                    <p className='text-2xl md:text-4xl leading-[1.15] font-normal tracking-tight'>
-                        Join Nexus of Curators & Artists, built on <span className="underline underline-offset-[12px] decoration-1 italic font-light opacity-80">collaboration</span>. 
+                    <p className='text-2xl md:text-4xl leading-[1.15] font-[gilroy] tracking-tight'>
+                        Join Nexus of Curators & Artists, built on <span className="font-bold underline underline-offset-[6px] decoration-1">collaboration</span>. 
                         No gatekeeping and competition.
                     </p>
                 </div>
