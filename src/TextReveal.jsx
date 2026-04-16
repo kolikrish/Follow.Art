@@ -16,7 +16,7 @@ const TextReveal = () => {
                 Nexus of <br /> Curators and <br /> Artists ↓
             </div>
 
-            <div className="bg-black text-white px-8 py-5 pr-20 relative cursor-pointer pointer-events-auto group scale-90 origin-bottom-right">
+            <div className="bg-white text-black px-8 py-5 pr-20 relative cursor-pointer pointer-events-auto group scale-90 origin-bottom-right">
                 <span className="text-xl font-medium">Join</span>
                 <div className="absolute right-5 top-1/2 -translate-y-1/2 w-8 h-8 border border-white/40 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-black transition-all">
                     <span className="text-lg">→</span>

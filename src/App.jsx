@@ -7,6 +7,7 @@ import TextReveal from './TextReveal'
 import Navbar from './Navbar'
 import Second from './Second'
 import Third from './Third'
+import Fourth from './Fourth'
 
 const App = () => {
 
@@ -40,6 +41,9 @@ const App = () => {
 
       {/* Third Section */}
       <Third />
+
+      {/* Fourth Section */}
+      <Fourth />
     </div>
   )
 }
