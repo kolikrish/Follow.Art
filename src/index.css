@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'gilroy';
-    src: url(./Gilroy-Light.ttf);
+    src: url('./Gilroy-Light.ttf');
 }
 
 ::-webkit-scrollbar {
