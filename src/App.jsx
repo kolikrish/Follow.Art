@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import React from 'react'
+import React, { useRef } from 'react'
 import { OrbitControls } from '@react-three/drei'
 import Scence from './components/Scence'
 import { Bloom, BrightnessContrast, EffectComposer, ToneMapping } from '@react-three/postprocessing'
@@ -12,8 +12,11 @@ import Footer from './components/Footer'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
 import { Analytics } from '@vercel/analytics/react'
+import VariableProximity from './components/VariableProximity'
 
 const App = () => {
+
+  const containerRef = useRef(null);
 
   useEffect(() => {
     const lenis = new Lenis()
@@ -56,6 +59,21 @@ const App = () => {
 
       {/* Third Section */}
       <Third />
+
+      <section 
+        ref={containerRef} 
+        className="relative w-full min-h-[60vh] flex justify-center items-center bg-[#ED7239] text-black font-light text-center px-4 py-20 sm:text-4xl md:text-6xl cursor-default overflow-hidden"
+      >
+        <VariableProximity
+          label={'The Professional network for artists and curators to connect and collaborate.'}
+          className={'variable-proximity-demo'}
+          fromFontVariationSettings="'wght' 400, 'opsz' 9"
+          toFontVariationSettings="'wght' 1000, 'opsz' 40"
+          containerRef={containerRef}
+          radius={120}
+          falloff="linear"
+        />
+      </section>
 
       {/* Fourth Section */}
       <Fourth />
