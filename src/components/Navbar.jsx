@@ -12,7 +12,6 @@ const Navbar = () => {
             <p className='cursor-pointer hover:line-through transition-all'>About</p>
             <p className='cursor-pointer hover:line-through transition-all'>Nexus Card</p>
             <p className='cursor-pointer hover:line-through transition-all'>Community Board</p>
-            <p className='cursor-pointer hover:line-through transition-all'>Pricing</p>
             <p className='cursor-pointer hover:line-through transition-all'>FAQ</p>
         </div>
 
